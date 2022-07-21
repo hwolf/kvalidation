@@ -30,7 +30,7 @@ jobs:
       - name: Generate API documentation
         run: ./gradlew -Pgroup="io.github.hwolf.kvalidation" -Pversion=${GITHUB_REF:11} dokkaHtmlMultiModule
       - name: Publish API documentation
-        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           folder: build/dokka/htmlMultiModule
           clean: true
