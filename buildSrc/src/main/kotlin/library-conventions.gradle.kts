@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.11.3"))
+    testImplementation(platform("org.junit:junit-bom:5.11.4"))
     testImplementation(platform("io.strikt:strikt-bom:0.35.1"))
     testImplementation(platform("io.kotest:kotest-bom:5.9.1"))
 
