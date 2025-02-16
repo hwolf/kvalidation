@@ -29,7 +29,7 @@ jobs:
       - name: Generate API documentation
         run: ./gradlew -Pversion=${GITHUB_REF:11} dokkaHtmlMultiModule
       - name: Publish API documentation
-        uses: JamesIves/github-pages-deploy-action@v4.7.1
+        uses: JamesIves/github-pages-deploy-action@v4.7.2
         with:
           folder: build/dokka/htmlMultiModule
           clean: true
