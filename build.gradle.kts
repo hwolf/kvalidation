@@ -1,6 +1,6 @@
 plugins {
     id("org.jetbrains.dokka")
-    id("org.sonarqube") version "6.0.1.5171"
+    id("org.sonarqube") version "6.3.1.5724"
     id("io.github.gradle-nexus.publish-plugin") version "2.0.0"
 }
 
